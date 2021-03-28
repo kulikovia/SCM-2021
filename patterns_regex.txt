@@ -1,0 +1,6 @@
+# contents of ./patterns/postfix:
+PATTERN1 [\w\d\[\]\.\_\: ]+ url\(qam:\/\/sourceid=[0-9]{0,6};[\D]+=\d;\)
+PATTERN2 [\w\d\[\]\.\_\:\"\# ]+ \[DUMP\]\[CH\][\w\d\[\]\.\_\:\"\# ]+ url:"watchTv\?locator=qam:\/\/sourceid=\w{0,6}"
+PATTERN3 [\S ]+ frequency: *\d+ *[Hz]*, qam_mode: \d+, program_number: [\S ]+
+PATTERN4 [\w\d\[\]\.\_\: ]+ Found supported [\w ]+ ca_system_id: \w+, ecm_pid: \w+
+PA5 (?<=\")\w{5}(?=\")

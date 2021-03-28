@@ -1,0 +1,987 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF
+xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+xmlns:vCard='http://www.w3.org/2001/vcard-rdf/3.0#'
+xmlns:my='http://127.0.0.1/bg/ont/test1#'
+>
+<rdf:Description rdf:about = 'http://127.0.0.1/Event_0/'>
+<my:request_timestamp rdf:datatype = 'http://www.w3.org/2001/XMLSchema#datetime'>11.11.2020T20:02:32.279</my:request_timestamp>
+<my:has_req_type>STATE_CHANGE</my:has_req_type>
+<my:has_state>1</my:has_state>
+<my:request_detailes>
+<rdf:Description>
+<rdf:type>:statement</rdf:type>
+<rdf:predicat>:new_state</rdf:predicat>
+<rdf:subject>Watch_TV</rdf:subject>
+<rdf:object><rdf:Description rdf:about = 'http://127.0.0.1/dcn:2/'>
+</rdf:Description>
+</rdf:object>
+</rdf:Description>
+</my:request_detailes>
+<my:uses_dev>
+<rdf:Description rdf:about = 'http://127.0.0.1/Device_A0722CEEC888/'>
+</rdf:Description>
+</my:uses_dev>
+</rdf:Description>
+
+<rdf:Description rdf:about = 'http://127.0.0.1/Event_1/'>
+<my:request_timestamp rdf:datatype = 'http://www.w3.org/2001/XMLSchema#datetime'>11.11.2020T20:02:32.467</my:request_timestamp>
+<my:has_req_type>STATE_CHANGE</my:has_req_type>
+<my:has_state>2</my:has_state>
+<my:request_detailes>
+<rdf:Description>
+<rdf:type>:statement</rdf:type>
+<rdf:predicat>:new_state</rdf:predicat>
+<rdf:subject>Watch_TV</rdf:subject>
+<rdf:object><rdf:Description rdf:about = 'http://127.0.0.1/dcn:2#"KCNC-HD"/'>
+</rdf:Description>
+</rdf:object>
+</rdf:Description>
+</my:request_detailes>
+<my:uses_dev>
+<rdf:Description rdf:about = 'http://127.0.0.1/Device_A0722CEEC888/'>
+</rdf:Description>
+</my:uses_dev>
+</rdf:Description>
+
+<rdf:Description rdf:about = 'http://127.0.0.1/Event_2/'>
+<my:request_timestamp rdf:datatype = 'http://www.w3.org/2001/XMLSchema#datetime'>11.11.2020T20:02:38.927</my:request_timestamp>
+<my:has_req_type>STATE_CHANGE</my:has_req_type>
+<my:has_state>1</my:has_state>
+<my:request_detailes>
+<rdf:Description>
+<rdf:type>:statement</rdf:type>
+<rdf:predicat>:new_state</rdf:predicat>
+<rdf:subject>Watch_TV</rdf:subject>
+<rdf:object><rdf:Description rdf:about = 'http://127.0.0.1/dcn:2/'>
+</rdf:Description>
+</rdf:object>
+</rdf:Description>
+</my:request_detailes>
+<my:uses_dev>
+<rdf:Description rdf:about = 'http://127.0.0.1/Device_A0722CEEC888/'>
+</rdf:Description>
+</my:uses_dev>
+</rdf:Description>
+
+<rdf:Description rdf:about = 'http://127.0.0.1/Event_3/'>
+<my:request_timestamp rdf:datatype = 'http://www.w3.org/2001/XMLSchema#datetime'>11.11.2020T20:02:45.133</my:request_timestamp>
+<my:has_req_type>STATE_CHANGE</my:has_req_type>
+<my:has_state>1</my:has_state>
+<my:request_detailes>
+<rdf:Description>
+<rdf:type>:statement</rdf:type>
+<rdf:predicat>:new_state</rdf:predicat>
+<rdf:subject>Watch_TV</rdf:subject>
+<rdf:object><rdf:Description rdf:about = 'http://127.0.0.1/dcn:2/'>
+</rdf:Description>
+</rdf:object>
+</rdf:Description>
+</my:request_detailes>
+<my:uses_dev>
+<rdf:Description rdf:about = 'http://127.0.0.1/Device_A0722CEEC888/'>
+</rdf:Description>
+</my:uses_dev>
+</rdf:Description>
+
+<rdf:Description rdf:about = 'http://127.0.0.1/Event_4/'>
+<my:request_timestamp rdf:datatype = 'http://www.w3.org/2001/XMLSchema#datetime'>11.11.2020T20:02:51.275</my:request_timestamp>
+<my:has_req_type>STATE_CHANGE</my:has_req_type>
+<my:has_state>1</my:has_state>
+<my:request_detailes>
+<rdf:Description>
+<rdf:type>:statement</rdf:type>
+<rdf:predicat>:new_state</rdf:predicat>
+<rdf:subject>Watch_TV</rdf:subject>
+<rdf:object><rdf:Description rdf:about = 'http://127.0.0.1/dcn:2/'>
+</rdf:Description>
+</rdf:object>
+</rdf:Description>
+</my:request_detailes>
+<my:uses_dev>
+<rdf:Description rdf:about = 'http://127.0.0.1/Device_A0722CEEC888/'>
+</rdf:Description>
+</my:uses_dev>
+</rdf:Description>
+
+<rdf:Description rdf:about = 'http://127.0.0.1/Event_5/'>
+<my:request_timestamp rdf:datatype = 'http://www.w3.org/2001/XMLSchema#datetime'>11.11.2020T20:02:54.210</my:request_timestamp>
+<my:has_req_type>STATE_CHANGE</my:has_req_type>
+<my:has_state>2</my:has_state>
+<my:request_detailes>
+<rdf:Description>
+<rdf:type>:statement</rdf:type>
+<rdf:predicat>:new_state</rdf:predicat>
+<rdf:subject>Watch_TV</rdf:subject>
+<rdf:object><rdf:Description rdf:about = 'http://127.0.0.1/dcn:2#"KCNC-HD"/'>
+</rdf:Description>
+</rdf:object>
+</rdf:Description>
+</my:request_detailes>
+<my:uses_dev>
+<rdf:Description rdf:about = 'http://127.0.0.1/Device_A0722CEEC888/'>
+</rdf:Description>
+</my:uses_dev>
+</rdf:Description>
+
+<rdf:Description rdf:about = 'http://127.0.0.1/Event_6/'>
+<my:request_timestamp rdf:datatype = 'http://www.w3.org/2001/XMLSchema#datetime'>11.11.2020T20:02:54.226</my:request_timestamp>
+<my:has_req_type>STATE_CHANGE</my:has_req_type>
+<my:has_state>2</my:has_state>
+<my:request_detailes>
+<rdf:Description>
+<rdf:type>:statement</rdf:type>
+<rdf:predicat>:new_state</rdf:predicat>
+<rdf:subject>Watch_TV</rdf:subject>
+<rdf:object><rdf:Description rdf:about = 'http://127.0.0.1/dcn:3#"KWGND"/'>
+</rdf:Description>
+</rdf:object>
+</rdf:Description>
+</my:request_detailes>
+<my:uses_dev>
+<rdf:Description rdf:about = 'http://127.0.0.1/Device_A0722CEEC888/'>
+</rdf:Description>
+</my:uses_dev>
+</rdf:Description>
+
+<rdf:Description rdf:about = 'http://127.0.0.1/Event_7/'>
+<my:request_timestamp rdf:datatype = 'http://www.w3.org/2001/XMLSchema#datetime'>11.11.2020T20:02:54.228</my:request_timestamp>
+<my:has_req_type>STATE_CHANGE</my:has_req_type>
+<my:has_state>2</my:has_state>
+<my:request_detailes>
+<rdf:Description>
+<rdf:type>:statement</rdf:type>
+<rdf:predicat>:new_state</rdf:predicat>
+<rdf:subject>Watch_TV</rdf:subject>
+<rdf:object><rdf:Description rdf:about = 'http://127.0.0.1/dcn:4#"KUSAHD"/'>
+</rdf:Description>
+</rdf:object>
+</rdf:Description>
+</my:request_detailes>
+<my:uses_dev>
+<rdf:Description rdf:about = 'http://127.0.0.1/Device_A0722CEEC888/'>
+</rdf:Description>
+</my:uses_dev>
+</rdf:Description>
+
+<rdf:Description rdf:about = 'http://127.0.0.1/Event_8/'>
+<my:request_timestamp rdf:datatype = 'http://www.w3.org/2001/XMLSchema#datetime'>11.11.2020T20:02:57.486</my:request_timestamp>
+<my:has_req_type>STATE_CHANGE</my:has_req_type>
+<my:has_state>1</my:has_state>
+<my:request_detailes>
+<rdf:Description>
+<rdf:type>:statement</rdf:type>
+<rdf:predicat>:new_state</rdf:predicat>
+<rdf:subject>Watch_TV</rdf:subject>
+<rdf:object><rdf:Description rdf:about = 'http://127.0.0.1/dcn:2/'>
+</rdf:Description>
+</rdf:object>
+</rdf:Description>
+</my:request_detailes>
+<my:uses_dev>
+<rdf:Description rdf:about = 'http://127.0.0.1/Device_A0722CEEC888/'>
+</rdf:Description>
+</my:uses_dev>
+</rdf:Description>
+
+<rdf:Description rdf:about = 'http://127.0.0.1/Event_9/'>
+<my:request_timestamp rdf:datatype = 'http://www.w3.org/2001/XMLSchema#datetime'>11.11.2020T20:02:58.398</my:request_timestamp>
+<my:has_req_type>STATE_CHANGE</my:has_req_type>
+<my:has_state>2</my:has_state>
+<my:request_detailes>
+<rdf:Description>
+<rdf:type>:statement</rdf:type>
+<rdf:predicat>:new_state</rdf:predicat>
+<rdf:subject>Watch_TV</rdf:subject>
+<rdf:object><rdf:Description rdf:about = 'http://127.0.0.1/dcn:2#"KCNC-HD"/'>
+</rdf:Description>
+</rdf:object>
+</rdf:Description>
+</my:request_detailes>
+<my:uses_dev>
+<rdf:Description rdf:about = 'http://127.0.0.1/Device_A0722CEEC888/'>
+</rdf:Description>
+</my:uses_dev>
+</rdf:Description>
+
+<rdf:Description rdf:about = 'http://127.0.0.1/Event_10/'>
+<my:request_timestamp rdf:datatype = 'http://www.w3.org/2001/XMLSchema#datetime'>11.11.2020T20:03:03.664</my:request_timestamp>
+<my:has_req_type>STATE_CHANGE</my:has_req_type>
+<my:has_state>1</my:has_state>
+<my:request_detailes>
+<rdf:Description>
+<rdf:type>:statement</rdf:type>
+<rdf:predicat>:new_state</rdf:predicat>
+<rdf:subject>Watch_TV</rdf:subject>
+<rdf:object><rdf:Description rdf:about = 'http://127.0.0.1/dcn:2/'>
+</rdf:Description>
+</rdf:object>
+</rdf:Description>
+</my:request_detailes>
+<my:uses_dev>
+<rdf:Description rdf:about = 'http://127.0.0.1/Device_A0722CEEC888/'>
+</rdf:Description>
+</my:uses_dev>
+</rdf:Description>
+
+<rdf:Description rdf:about = 'http://127.0.0.1/Event_11/'>
+<my:request_timestamp rdf:datatype = 'http://www.w3.org/2001/XMLSchema#datetime'>11.11.2020T20:03:08.332</my:request_timestamp>
+<my:has_req_type>STATE_CHANGE</my:has_req_type>
+<my:has_state>2</my:has_state>
+<my:request_detailes>
+<rdf:Description>
+<rdf:type>:statement</rdf:type>
+<rdf:predicat>:new_state</rdf:predicat>
+<rdf:subject>Watch_TV</rdf:subject>
+<rdf:object><rdf:Description rdf:about = 'http://127.0.0.1/dcn:2#"KCNC-HD"/'>
+</rdf:Description>
+</rdf:object>
+</rdf:Description>
+</my:request_detailes>
+<my:uses_dev>
+<rdf:Description rdf:about = 'http://127.0.0.1/Device_A0722CEEC888/'>
+</rdf:Description>
+</my:uses_dev>
+</rdf:Description>
+
+<rdf:Description rdf:about = 'http://127.0.0.1/Event_12/'>
+<my:request_timestamp rdf:datatype = 'http://www.w3.org/2001/XMLSchema#datetime'>11.11.2020T20:03:09.784</my:request_timestamp>
+<my:has_req_type>STATE_CHANGE</my:has_req_type>
+<my:has_state>1</my:has_state>
+<my:request_detailes>
+<rdf:Description>
+<rdf:type>:statement</rdf:type>
+<rdf:predicat>:new_state</rdf:predicat>
+<rdf:subject>Watch_TV</rdf:subject>
+<rdf:object><rdf:Description rdf:about = 'http://127.0.0.1/dcn:2/'>
+</rdf:Description>
+</rdf:object>
+</rdf:Description>
+</my:request_detailes>
+<my:uses_dev>
+<rdf:Description rdf:about = 'http://127.0.0.1/Device_A0722CEEC888/'>
+</rdf:Description>
+</my:uses_dev>
+</rdf:Description>
+
+<rdf:Description rdf:about = 'http://127.0.0.1/Event_13/'>
+<my:request_timestamp rdf:datatype = 'http://www.w3.org/2001/XMLSchema#datetime'>11.11.2020T20:03:15.888</my:request_timestamp>
+<my:has_req_type>STATE_CHANGE</my:has_req_type>
+<my:has_state>1</my:has_state>
+<my:request_detailes>
+<rdf:Description>
+<rdf:type>:statement</rdf:type>
+<rdf:predicat>:new_state</rdf:predicat>
+<rdf:subject>Watch_TV</rdf:subject>
+<rdf:object><rdf:Description rdf:about = 'http://127.0.0.1/dcn:2/'>
+</rdf:Description>
+</rdf:object>
+</rdf:Description>
+</my:request_detailes>
+<my:uses_dev>
+<rdf:Description rdf:about = 'http://127.0.0.1/Device_A0722CEEC888/'>
+</rdf:Description>
+</my:uses_dev>
+</rdf:Description>
+
+<rdf:Description rdf:about = 'http://127.0.0.1/Event_14/'>
+<my:request_timestamp rdf:datatype = 'http://www.w3.org/2001/XMLSchema#datetime'>11.11.2020T20:03:22.036</my:request_timestamp>
+<my:has_req_type>STATE_CHANGE</my:has_req_type>
+<my:has_state>1</my:has_state>
+<my:request_detailes>
+<rdf:Description>
+<rdf:type>:statement</rdf:type>
+<rdf:predicat>:new_state</rdf:predicat>
+<rdf:subject>Watch_TV</rdf:subject>
+<rdf:object><rdf:Description rdf:about = 'http://127.0.0.1/dcn:2/'>
+</rdf:Description>
+</rdf:object>
+</rdf:Description>
+</my:request_detailes>
+<my:uses_dev>
+<rdf:Description rdf:about = 'http://127.0.0.1/Device_A0722CEEC888/'>
+</rdf:Description>
+</my:uses_dev>
+</rdf:Description>
+
+<rdf:Description rdf:about = 'http://127.0.0.1/Event_15/'>
+<my:request_timestamp rdf:datatype = 'http://www.w3.org/2001/XMLSchema#datetime'>11.11.2020T20:03:25.175</my:request_timestamp>
+<my:has_req_type>STATE_CHANGE</my:has_req_type>
+<my:has_state>2</my:has_state>
+<my:request_detailes>
+<rdf:Description>
+<rdf:type>:statement</rdf:type>
+<rdf:predicat>:new_state</rdf:predicat>
+<rdf:subject>Watch_TV</rdf:subject>
+<rdf:object><rdf:Description rdf:about = 'http://127.0.0.1/dcn:2#"KCNC-HD"/'>
+</rdf:Description>
+</rdf:object>
+</rdf:Description>
+</my:request_detailes>
+<my:uses_dev>
+<rdf:Description rdf:about = 'http://127.0.0.1/Device_A0722CEEC888/'>
+</rdf:Description>
+</my:uses_dev>
+</rdf:Description>
+
+<rdf:Description rdf:about = 'http://127.0.0.1/Event_16/'>
+<my:request_timestamp rdf:datatype = 'http://www.w3.org/2001/XMLSchema#datetime'>11.11.2020T20:03:25.200</my:request_timestamp>
+<my:has_req_type>STATE_CHANGE</my:has_req_type>
+<my:has_state>2</my:has_state>
+<my:request_detailes>
+<rdf:Description>
+<rdf:type>:statement</rdf:type>
+<rdf:predicat>:new_state</rdf:predicat>
+<rdf:subject>Watch_TV</rdf:subject>
+<rdf:object><rdf:Description rdf:about = 'http://127.0.0.1/dcn:3#"KWGND"/'>
+</rdf:Description>
+</rdf:object>
+</rdf:Description>
+</my:request_detailes>
+<my:uses_dev>
+<rdf:Description rdf:about = 'http://127.0.0.1/Device_A0722CEEC888/'>
+</rdf:Description>
+</my:uses_dev>
+</rdf:Description>
+
+<rdf:Description rdf:about = 'http://127.0.0.1/Event_17/'>
+<my:request_timestamp rdf:datatype = 'http://www.w3.org/2001/XMLSchema#datetime'>11.11.2020T20:03:25.206</my:request_timestamp>
+<my:has_req_type>STATE_CHANGE</my:has_req_type>
+<my:has_state>2</my:has_state>
+<my:request_detailes>
+<rdf:Description>
+<rdf:type>:statement</rdf:type>
+<rdf:predicat>:new_state</rdf:predicat>
+<rdf:subject>Watch_TV</rdf:subject>
+<rdf:object><rdf:Description rdf:about = 'http://127.0.0.1/dcn:4#"KUSAHD"/'>
+</rdf:Description>
+</rdf:object>
+</rdf:Description>
+</my:request_detailes>
+<my:uses_dev>
+<rdf:Description rdf:about = 'http://127.0.0.1/Device_A0722CEEC888/'>
+</rdf:Description>
+</my:uses_dev>
+</rdf:Description>
+
+<rdf:Description rdf:about = 'http://127.0.0.1/Event_18/'>
+<my:request_timestamp rdf:datatype = 'http://www.w3.org/2001/XMLSchema#datetime'>11.11.2020T20:03:26.148</my:request_timestamp>
+<my:has_req_type>STATE_CHANGE</my:has_req_type>
+<my:has_state>2</my:has_state>
+<my:request_detailes>
+<rdf:Description>
+<rdf:type>:statement</rdf:type>
+<rdf:predicat>:new_state</rdf:predicat>
+<rdf:subject>Watch_TV</rdf:subject>
+<rdf:object><rdf:Description rdf:about = 'http://127.0.0.1/dcn:2#"KCNC-HD"/'>
+</rdf:Description>
+</rdf:object>
+</rdf:Description>
+</my:request_detailes>
+<my:uses_dev>
+<rdf:Description rdf:about = 'http://127.0.0.1/Device_A0722CEEC888/'>
+</rdf:Description>
+</my:uses_dev>
+</rdf:Description>
+
+<rdf:Description rdf:about = 'http://127.0.0.1/Event_19/'>
+<my:request_timestamp rdf:datatype = 'http://www.w3.org/2001/XMLSchema#datetime'>11.11.2020T20:03:28.183</my:request_timestamp>
+<my:has_req_type>STATE_CHANGE</my:has_req_type>
+<my:has_state>1</my:has_state>
+<my:request_detailes>
+<rdf:Description>
+<rdf:type>:statement</rdf:type>
+<rdf:predicat>:new_state</rdf:predicat>
+<rdf:subject>Watch_TV</rdf:subject>
+<rdf:object><rdf:Description rdf:about = 'http://127.0.0.1/dcn:2/'>
+</rdf:Description>
+</rdf:object>
+</rdf:Description>
+</my:request_detailes>
+<my:uses_dev>
+<rdf:Description rdf:about = 'http://127.0.0.1/Device_A0722CEEC888/'>
+</rdf:Description>
+</my:uses_dev>
+</rdf:Description>
+
+<rdf:Description rdf:about = 'http://127.0.0.1/Event_20/'>
+<my:request_timestamp rdf:datatype = 'http://www.w3.org/2001/XMLSchema#datetime'>11.11.2020T20:03:30.139</my:request_timestamp>
+<my:has_req_type>STATE_CHANGE</my:has_req_type>
+<my:has_state>1</my:has_state>
+<my:request_detailes>
+<rdf:Description>
+<rdf:type>:statement</rdf:type>
+<rdf:predicat>:new_state</rdf:predicat>
+<rdf:subject>Watch_TV</rdf:subject>
+<rdf:object><rdf:Description rdf:about = 'http://127.0.0.1/dcn:3/'>
+</rdf:Description>
+</rdf:object>
+</rdf:Description>
+</my:request_detailes>
+<my:uses_dev>
+<rdf:Description rdf:about = 'http://127.0.0.1/Device_A0722CEEC888/'>
+</rdf:Description>
+</my:uses_dev>
+</rdf:Description>
+
+<rdf:Description rdf:about = 'http://127.0.0.1/Event_21/'>
+<my:request_timestamp rdf:datatype = 'http://www.w3.org/2001/XMLSchema#datetime'>11.11.2020T20:03:30.158</my:request_timestamp>
+<my:has_req_type>STATE_CHANGE</my:has_req_type>
+<my:has_state>2</my:has_state>
+<my:request_detailes>
+<rdf:Description>
+<rdf:type>:statement</rdf:type>
+<rdf:predicat>:new_state</rdf:predicat>
+<rdf:subject>Watch_TV</rdf:subject>
+<rdf:object><rdf:Description rdf:about = 'http://127.0.0.1/dcn:3#"KWGND"/'>
+</rdf:Description>
+</rdf:object>
+</rdf:Description>
+</my:request_detailes>
+<my:uses_dev>
+<rdf:Description rdf:about = 'http://127.0.0.1/Device_A0722CEEC888/'>
+</rdf:Description>
+</my:uses_dev>
+</rdf:Description>
+
+<rdf:Description rdf:about = 'http://127.0.0.1/Event_22/'>
+<my:request_timestamp rdf:datatype = 'http://www.w3.org/2001/XMLSchema#datetime'>11.11.2020T20:03:30.232</my:request_timestamp>
+<my:has_req_type>STATE_CHANGE</my:has_req_type>
+<my:has_state>3</my:has_state>
+<my:request_detailes>
+<rdf:Description>
+<rdf:type>:statement</rdf:type>
+<rdf:predicat>:new_state</rdf:predicat>
+<rdf:subject>Watch_TV</rdf:subject>
+<rdf:object><rdf:Description rdf:about = 'http://127.0.0.1/program_number:195/'>
+</rdf:Description>
+</rdf:object>
+</rdf:Description>
+</my:request_detailes>
+<my:uses_dev>
+<rdf:Description rdf:about = 'http://127.0.0.1/Device_A0722CEEC888/'>
+</rdf:Description>
+</my:uses_dev>
+</rdf:Description>
+
+<rdf:Description rdf:about = 'http://127.0.0.1/Event_23/'>
+<my:request_timestamp rdf:datatype = 'http://www.w3.org/2001/XMLSchema#datetime'>11.11.2020T20:03:36.361</my:request_timestamp>
+<my:has_req_type>STATE_CHANGE</my:has_req_type>
+<my:has_state>1</my:has_state>
+<my:request_detailes>
+<rdf:Description>
+<rdf:type>:statement</rdf:type>
+<rdf:predicat>:new_state</rdf:predicat>
+<rdf:subject>Watch_TV</rdf:subject>
+<rdf:object><rdf:Description rdf:about = 'http://127.0.0.1/dcn:3/'>
+</rdf:Description>
+</rdf:object>
+</rdf:Description>
+</my:request_detailes>
+<my:uses_dev>
+<rdf:Description rdf:about = 'http://127.0.0.1/Device_A0722CEEC888/'>
+</rdf:Description>
+</my:uses_dev>
+</rdf:Description>
+
+<rdf:Description rdf:about = 'http://127.0.0.1/Event_24/'>
+<my:request_timestamp rdf:datatype = 'http://www.w3.org/2001/XMLSchema#datetime'>11.11.2020T20:03:42.532</my:request_timestamp>
+<my:has_req_type>STATE_CHANGE</my:has_req_type>
+<my:has_state>1</my:has_state>
+<my:request_detailes>
+<rdf:Description>
+<rdf:type>:statement</rdf:type>
+<rdf:predicat>:new_state</rdf:predicat>
+<rdf:subject>Watch_TV</rdf:subject>
+<rdf:object><rdf:Description rdf:about = 'http://127.0.0.1/dcn:3/'>
+</rdf:Description>
+</rdf:object>
+</rdf:Description>
+</my:request_detailes>
+<my:uses_dev>
+<rdf:Description rdf:about = 'http://127.0.0.1/Device_A0722CEEC888/'>
+</rdf:Description>
+</my:uses_dev>
+</rdf:Description>
+
+<rdf:Description rdf:about = 'http://127.0.0.1/Event_25/'>
+<my:request_timestamp rdf:datatype = 'http://www.w3.org/2001/XMLSchema#datetime'>11.11.2020T20:03:47.073</my:request_timestamp>
+<my:has_req_type>STATE_CHANGE</my:has_req_type>
+<my:has_state>2</my:has_state>
+<my:request_detailes>
+<rdf:Description>
+<rdf:type>:statement</rdf:type>
+<rdf:predicat>:new_state</rdf:predicat>
+<rdf:subject>Watch_TV</rdf:subject>
+<rdf:object><rdf:Description rdf:about = 'http://127.0.0.1/dcn:3#"KWGND"/'>
+</rdf:Description>
+</rdf:object>
+</rdf:Description>
+</my:request_detailes>
+<my:uses_dev>
+<rdf:Description rdf:about = 'http://127.0.0.1/Device_A0722CEEC888/'>
+</rdf:Description>
+</my:uses_dev>
+</rdf:Description>
+
+<rdf:Description rdf:about = 'http://127.0.0.1/Event_26/'>
+<my:request_timestamp rdf:datatype = 'http://www.w3.org/2001/XMLSchema#datetime'>11.11.2020T20:03:47.103</my:request_timestamp>
+<my:has_req_type>STATE_CHANGE</my:has_req_type>
+<my:has_state>2</my:has_state>
+<my:request_detailes>
+<rdf:Description>
+<rdf:type>:statement</rdf:type>
+<rdf:predicat>:new_state</rdf:predicat>
+<rdf:subject>Watch_TV</rdf:subject>
+<rdf:object><rdf:Description rdf:about = 'http://127.0.0.1/dcn:4#"KUSAHD"/'>
+</rdf:Description>
+</rdf:object>
+</rdf:Description>
+</my:request_detailes>
+<my:uses_dev>
+<rdf:Description rdf:about = 'http://127.0.0.1/Device_A0722CEEC888/'>
+</rdf:Description>
+</my:uses_dev>
+</rdf:Description>
+
+<rdf:Description rdf:about = 'http://127.0.0.1/Event_27/'>
+<my:request_timestamp rdf:datatype = 'http://www.w3.org/2001/XMLSchema#datetime'>11.11.2020T20:03:47.111</my:request_timestamp>
+<my:has_req_type>STATE_CHANGE</my:has_req_type>
+<my:has_state>2</my:has_state>
+<my:request_detailes>
+<rdf:Description>
+<rdf:type>:statement</rdf:type>
+<rdf:predicat>:new_state</rdf:predicat>
+<rdf:subject>Watch_TV</rdf:subject>
+<rdf:object><rdf:Description rdf:about = 'http://127.0.0.1/dcn:5#"KDVRH"/'>
+</rdf:Description>
+</rdf:object>
+</rdf:Description>
+</my:request_detailes>
+<my:uses_dev>
+<rdf:Description rdf:about = 'http://127.0.0.1/Device_A0722CEEC888/'>
+</rdf:Description>
+</my:uses_dev>
+</rdf:Description>
+
+<rdf:Description rdf:about = 'http://127.0.0.1/Event_28/'>
+<my:request_timestamp rdf:datatype = 'http://www.w3.org/2001/XMLSchema#datetime'>11.11.2020T20:03:48.055</my:request_timestamp>
+<my:has_req_type>STATE_CHANGE</my:has_req_type>
+<my:has_state>2</my:has_state>
+<my:request_detailes>
+<rdf:Description>
+<rdf:type>:statement</rdf:type>
+<rdf:predicat>:new_state</rdf:predicat>
+<rdf:subject>Watch_TV</rdf:subject>
+<rdf:object><rdf:Description rdf:about = 'http://127.0.0.1/dcn:3#"KWGND"/'>
+</rdf:Description>
+</rdf:object>
+</rdf:Description>
+</my:request_detailes>
+<my:uses_dev>
+<rdf:Description rdf:about = 'http://127.0.0.1/Device_A0722CEEC888/'>
+</rdf:Description>
+</my:uses_dev>
+</rdf:Description>
+
+<rdf:Description rdf:about = 'http://127.0.0.1/Event_29/'>
+<my:request_timestamp rdf:datatype = 'http://www.w3.org/2001/XMLSchema#datetime'>11.11.2020T20:03:48.666</my:request_timestamp>
+<my:has_req_type>STATE_CHANGE</my:has_req_type>
+<my:has_state>1</my:has_state>
+<my:request_detailes>
+<rdf:Description>
+<rdf:type>:statement</rdf:type>
+<rdf:predicat>:new_state</rdf:predicat>
+<rdf:subject>Watch_TV</rdf:subject>
+<rdf:object><rdf:Description rdf:about = 'http://127.0.0.1/dcn:3/'>
+</rdf:Description>
+</rdf:object>
+</rdf:Description>
+</my:request_detailes>
+<my:uses_dev>
+<rdf:Description rdf:about = 'http://127.0.0.1/Device_A0722CEEC888/'>
+</rdf:Description>
+</my:uses_dev>
+</rdf:Description>
+
+<rdf:Description rdf:about = 'http://127.0.0.1/Event_30/'>
+<my:request_timestamp rdf:datatype = 'http://www.w3.org/2001/XMLSchema#datetime'>11.11.2020T20:03:52.320</my:request_timestamp>
+<my:has_req_type>STATE_CHANGE</my:has_req_type>
+<my:has_state>1</my:has_state>
+<my:request_detailes>
+<rdf:Description>
+<rdf:type>:statement</rdf:type>
+<rdf:predicat>:new_state</rdf:predicat>
+<rdf:subject>Watch_TV</rdf:subject>
+<rdf:object><rdf:Description rdf:about = 'http://127.0.0.1/dcn:4/'>
+</rdf:Description>
+</rdf:object>
+</rdf:Description>
+</my:request_detailes>
+<my:uses_dev>
+<rdf:Description rdf:about = 'http://127.0.0.1/Device_A0722CEEC888/'>
+</rdf:Description>
+</my:uses_dev>
+</rdf:Description>
+
+<rdf:Description rdf:about = 'http://127.0.0.1/Event_31/'>
+<my:request_timestamp rdf:datatype = 'http://www.w3.org/2001/XMLSchema#datetime'>11.11.2020T20:03:52.342</my:request_timestamp>
+<my:has_req_type>STATE_CHANGE</my:has_req_type>
+<my:has_state>2</my:has_state>
+<my:request_detailes>
+<rdf:Description>
+<rdf:type>:statement</rdf:type>
+<rdf:predicat>:new_state</rdf:predicat>
+<rdf:subject>Watch_TV</rdf:subject>
+<rdf:object><rdf:Description rdf:about = 'http://127.0.0.1/dcn:4#"KUSAHD"/'>
+</rdf:Description>
+</rdf:object>
+</rdf:Description>
+</my:request_detailes>
+<my:uses_dev>
+<rdf:Description rdf:about = 'http://127.0.0.1/Device_A0722CEEC888/'>
+</rdf:Description>
+</my:uses_dev>
+</rdf:Description>
+
+<rdf:Description rdf:about = 'http://127.0.0.1/Event_32/'>
+<my:request_timestamp rdf:datatype = 'http://www.w3.org/2001/XMLSchema#datetime'>11.11.2020T20:03:52.456</my:request_timestamp>
+<my:has_req_type>STATE_CHANGE</my:has_req_type>
+<my:has_state>3</my:has_state>
+<my:request_detailes>
+<rdf:Description>
+<rdf:type>:statement</rdf:type>
+<rdf:predicat>:new_state</rdf:predicat>
+<rdf:subject>Watch_TV</rdf:subject>
+<rdf:object><rdf:Description rdf:about = 'http://127.0.0.1/program_number:103/'>
+</rdf:Description>
+</rdf:object>
+</rdf:Description>
+</my:request_detailes>
+<my:uses_dev>
+<rdf:Description rdf:about = 'http://127.0.0.1/Device_A0722CEEC888/'>
+</rdf:Description>
+</my:uses_dev>
+</rdf:Description>
+
+<rdf:Description rdf:about = 'http://127.0.0.1/Event_33/'>
+<my:request_timestamp rdf:datatype = 'http://www.w3.org/2001/XMLSchema#datetime'>11.11.2020T20:03:52.795</my:request_timestamp>
+<my:has_req_type>STATE_CHANGE</my:has_req_type>
+<my:has_state>4</my:has_state>
+<my:request_detailes>
+<rdf:Description>
+<rdf:type>:statement</rdf:type>
+<rdf:predicat>:new_state</rdf:predicat>
+<rdf:subject>Watch_TV</rdf:subject>
+<rdf:object><rdf:Description rdf:about = 'http://127.0.0.1/qam::MediaSourceImpl:1621203/'>
+</rdf:Description>
+</rdf:object>
+</rdf:Description>
+</my:request_detailes>
+<my:uses_dev>
+<rdf:Description rdf:about = 'http://127.0.0.1/Device_A0722CEEC888/'>
+</rdf:Description>
+</my:uses_dev>
+</rdf:Description>
+
+<rdf:Description rdf:about = 'http://127.0.0.1/Event_34/'>
+<my:request_timestamp rdf:datatype = 'http://www.w3.org/2001/XMLSchema#datetime'>11.11.2020T20:03:52.795</my:request_timestamp>
+<my:has_req_type>STATE_CHANGE</my:has_req_type>
+<my:has_state>4</my:has_state>
+<my:request_detailes>
+<rdf:Description>
+<rdf:type>:statement</rdf:type>
+<rdf:predicat>:new_state</rdf:predicat>
+<rdf:subject>Watch_TV</rdf:subject>
+<rdf:object><rdf:Description rdf:about = 'http://127.0.0.1/qam::MediaSourceImpl:1621205/'>
+</rdf:Description>
+</rdf:object>
+</rdf:Description>
+</my:request_detailes>
+<my:uses_dev>
+<rdf:Description rdf:about = 'http://127.0.0.1/Device_A0722CEEC888/'>
+</rdf:Description>
+</my:uses_dev>
+</rdf:Description>
+
+<rdf:Description rdf:about = 'http://127.0.0.1/Event_35/'>
+<my:request_timestamp rdf:datatype = 'http://www.w3.org/2001/XMLSchema#datetime'>11.11.2020T20:03:52.795</my:request_timestamp>
+<my:has_req_type>STATE_CHANGE</my:has_req_type>
+<my:has_state>4</my:has_state>
+<my:request_detailes>
+<rdf:Description>
+<rdf:type>:statement</rdf:type>
+<rdf:predicat>:new_state</rdf:predicat>
+<rdf:subject>Watch_TV</rdf:subject>
+<rdf:object><rdf:Description rdf:about = 'http://127.0.0.1/qam::MediaSourceImpl:1621207/'>
+</rdf:Description>
+</rdf:object>
+</rdf:Description>
+</my:request_detailes>
+<my:uses_dev>
+<rdf:Description rdf:about = 'http://127.0.0.1/Device_A0722CEEC888/'>
+</rdf:Description>
+</my:uses_dev>
+</rdf:Description>
+
+<rdf:Description rdf:about = 'http://127.0.0.1/Event_36/'>
+<my:request_timestamp rdf:datatype = 'http://www.w3.org/2001/XMLSchema#datetime'>11.11.2020T20:03:58.558</my:request_timestamp>
+<my:has_req_type>STATE_CHANGE</my:has_req_type>
+<my:has_state>1</my:has_state>
+<my:request_detailes>
+<rdf:Description>
+<rdf:type>:statement</rdf:type>
+<rdf:predicat>:new_state</rdf:predicat>
+<rdf:subject>Watch_TV</rdf:subject>
+<rdf:object><rdf:Description rdf:about = 'http://127.0.0.1/dcn:4/'>
+</rdf:Description>
+</rdf:object>
+</rdf:Description>
+</my:request_detailes>
+<my:uses_dev>
+<rdf:Description rdf:about = 'http://127.0.0.1/Device_A0722CEEC888/'>
+</rdf:Description>
+</my:uses_dev>
+</rdf:Description>
+
+<rdf:Description rdf:about = 'http://127.0.0.1/Event_37/'>
+<my:request_timestamp rdf:datatype = 'http://www.w3.org/2001/XMLSchema#datetime'>11.11.2020T20:04:04.703</my:request_timestamp>
+<my:has_req_type>STATE_CHANGE</my:has_req_type>
+<my:has_state>1</my:has_state>
+<my:request_detailes>
+<rdf:Description>
+<rdf:type>:statement</rdf:type>
+<rdf:predicat>:new_state</rdf:predicat>
+<rdf:subject>Watch_TV</rdf:subject>
+<rdf:object><rdf:Description rdf:about = 'http://127.0.0.1/dcn:4/'>
+</rdf:Description>
+</rdf:object>
+</rdf:Description>
+</my:request_detailes>
+<my:uses_dev>
+<rdf:Description rdf:about = 'http://127.0.0.1/Device_A0722CEEC888/'>
+</rdf:Description>
+</my:uses_dev>
+</rdf:Description>
+
+<rdf:Description rdf:about = 'http://127.0.0.1/Event_38/'>
+<my:request_timestamp rdf:datatype = 'http://www.w3.org/2001/XMLSchema#datetime'>11.11.2020T20:04:09.190</my:request_timestamp>
+<my:has_req_type>STATE_CHANGE</my:has_req_type>
+<my:has_state>2</my:has_state>
+<my:request_detailes>
+<rdf:Description>
+<rdf:type>:statement</rdf:type>
+<rdf:predicat>:new_state</rdf:predicat>
+<rdf:subject>Watch_TV</rdf:subject>
+<rdf:object><rdf:Description rdf:about = 'http://127.0.0.1/dcn:4#"KUSAHD"/'>
+</rdf:Description>
+</rdf:object>
+</rdf:Description>
+</my:request_detailes>
+<my:uses_dev>
+<rdf:Description rdf:about = 'http://127.0.0.1/Device_A0722CEEC888/'>
+</rdf:Description>
+</my:uses_dev>
+</rdf:Description>
+
+<rdf:Description rdf:about = 'http://127.0.0.1/Event_39/'>
+<my:request_timestamp rdf:datatype = 'http://www.w3.org/2001/XMLSchema#datetime'>11.11.2020T20:04:09.197</my:request_timestamp>
+<my:has_req_type>STATE_CHANGE</my:has_req_type>
+<my:has_state>2</my:has_state>
+<my:request_detailes>
+<rdf:Description>
+<rdf:type>:statement</rdf:type>
+<rdf:predicat>:new_state</rdf:predicat>
+<rdf:subject>Watch_TV</rdf:subject>
+<rdf:object><rdf:Description rdf:about = 'http://127.0.0.1/dcn:5#"KDVRH"/'>
+</rdf:Description>
+</rdf:object>
+</rdf:Description>
+</my:request_detailes>
+<my:uses_dev>
+<rdf:Description rdf:about = 'http://127.0.0.1/Device_A0722CEEC888/'>
+</rdf:Description>
+</my:uses_dev>
+</rdf:Description>
+
+<rdf:Description rdf:about = 'http://127.0.0.1/Event_40/'>
+<my:request_timestamp rdf:datatype = 'http://www.w3.org/2001/XMLSchema#datetime'>11.11.2020T20:04:09.204</my:request_timestamp>
+<my:has_req_type>STATE_CHANGE</my:has_req_type>
+<my:has_state>2</my:has_state>
+<my:request_detailes>
+<rdf:Description>
+<rdf:type>:statement</rdf:type>
+<rdf:predicat>:new_state</rdf:predicat>
+<rdf:subject>Watch_TV</rdf:subject>
+<rdf:object><rdf:Description rdf:about = 'http://127.0.0.1/dcn:6#"KRMADT"/'>
+</rdf:Description>
+</rdf:object>
+</rdf:Description>
+</my:request_detailes>
+<my:uses_dev>
+<rdf:Description rdf:about = 'http://127.0.0.1/Device_A0722CEEC888/'>
+</rdf:Description>
+</my:uses_dev>
+</rdf:Description>
+
+<rdf:Description rdf:about = 'http://127.0.0.1/Event_41/'>
+<my:request_timestamp rdf:datatype = 'http://www.w3.org/2001/XMLSchema#datetime'>11.11.2020T20:04:10.152</my:request_timestamp>
+<my:has_req_type>STATE_CHANGE</my:has_req_type>
+<my:has_state>2</my:has_state>
+<my:request_detailes>
+<rdf:Description>
+<rdf:type>:statement</rdf:type>
+<rdf:predicat>:new_state</rdf:predicat>
+<rdf:subject>Watch_TV</rdf:subject>
+<rdf:object><rdf:Description rdf:about = 'http://127.0.0.1/dcn:4#"KUSAHD"/'>
+</rdf:Description>
+</rdf:object>
+</rdf:Description>
+</my:request_detailes>
+<my:uses_dev>
+<rdf:Description rdf:about = 'http://127.0.0.1/Device_A0722CEEC888/'>
+</rdf:Description>
+</my:uses_dev>
+</rdf:Description>
+
+<rdf:Description rdf:about = 'http://127.0.0.1/Event_42/'>
+<my:request_timestamp rdf:datatype = 'http://www.w3.org/2001/XMLSchema#datetime'>11.11.2020T20:04:10.918</my:request_timestamp>
+<my:has_req_type>STATE_CHANGE</my:has_req_type>
+<my:has_state>1</my:has_state>
+<my:request_detailes>
+<rdf:Description>
+<rdf:type>:statement</rdf:type>
+<rdf:predicat>:new_state</rdf:predicat>
+<rdf:subject>Watch_TV</rdf:subject>
+<rdf:object><rdf:Description rdf:about = 'http://127.0.0.1/dcn:4/'>
+</rdf:Description>
+</rdf:object>
+</rdf:Description>
+</my:request_detailes>
+<my:uses_dev>
+<rdf:Description rdf:about = 'http://127.0.0.1/Device_A0722CEEC888/'>
+</rdf:Description>
+</my:uses_dev>
+</rdf:Description>
+
+<rdf:Description rdf:about = 'http://127.0.0.1/Event_43/'>
+<my:request_timestamp rdf:datatype = 'http://www.w3.org/2001/XMLSchema#datetime'>11.11.2020T20:04:14.263</my:request_timestamp>
+<my:has_req_type>STATE_CHANGE</my:has_req_type>
+<my:has_state>1</my:has_state>
+<my:request_detailes>
+<rdf:Description>
+<rdf:type>:statement</rdf:type>
+<rdf:predicat>:new_state</rdf:predicat>
+<rdf:subject>Watch_TV</rdf:subject>
+<rdf:object><rdf:Description rdf:about = 'http://127.0.0.1/dcn:5/'>
+</rdf:Description>
+</rdf:object>
+</rdf:Description>
+</my:request_detailes>
+<my:uses_dev>
+<rdf:Description rdf:about = 'http://127.0.0.1/Device_A0722CEEC888/'>
+</rdf:Description>
+</my:uses_dev>
+</rdf:Description>
+
+<rdf:Description rdf:about = 'http://127.0.0.1/Event_44/'>
+<my:request_timestamp rdf:datatype = 'http://www.w3.org/2001/XMLSchema#datetime'>11.11.2020T20:04:14.275</my:request_timestamp>
+<my:has_req_type>STATE_CHANGE</my:has_req_type>
+<my:has_state>2</my:has_state>
+<my:request_detailes>
+<rdf:Description>
+<rdf:type>:statement</rdf:type>
+<rdf:predicat>:new_state</rdf:predicat>
+<rdf:subject>Watch_TV</rdf:subject>
+<rdf:object><rdf:Description rdf:about = 'http://127.0.0.1/dcn:5#"KDVRH"/'>
+</rdf:Description>
+</rdf:object>
+</rdf:Description>
+</my:request_detailes>
+<my:uses_dev>
+<rdf:Description rdf:about = 'http://127.0.0.1/Device_A0722CEEC888/'>
+</rdf:Description>
+</my:uses_dev>
+</rdf:Description>
+
+<rdf:Description rdf:about = 'http://127.0.0.1/Event_45/'>
+<my:request_timestamp rdf:datatype = 'http://www.w3.org/2001/XMLSchema#datetime'>11.11.2020T20:04:14.437</my:request_timestamp>
+<my:has_req_type>STATE_CHANGE</my:has_req_type>
+<my:has_state>3</my:has_state>
+<my:request_detailes>
+<rdf:Description>
+<rdf:type>:statement</rdf:type>
+<rdf:predicat>:new_state</rdf:predicat>
+<rdf:subject>Watch_TV</rdf:subject>
+<rdf:object><rdf:Description rdf:about = 'http://127.0.0.1/program_number:104/'>
+</rdf:Description>
+</rdf:object>
+</rdf:Description>
+</my:request_detailes>
+<my:uses_dev>
+<rdf:Description rdf:about = 'http://127.0.0.1/Device_A0722CEEC888/'>
+</rdf:Description>
+</my:uses_dev>
+</rdf:Description>
+
+<rdf:Description rdf:about = 'http://127.0.0.1/Event_46/'>
+<my:request_timestamp rdf:datatype = 'http://www.w3.org/2001/XMLSchema#datetime'>11.11.2020T20:04:14.775</my:request_timestamp>
+<my:has_req_type>STATE_CHANGE</my:has_req_type>
+<my:has_state>4</my:has_state>
+<my:request_detailes>
+<rdf:Description>
+<rdf:type>:statement</rdf:type>
+<rdf:predicat>:new_state</rdf:predicat>
+<rdf:subject>Watch_TV</rdf:subject>
+<rdf:object><rdf:Description rdf:about = 'http://127.0.0.1/qam::MediaSourceImpl:1625193/'>
+</rdf:Description>
+</rdf:object>
+</rdf:Description>
+</my:request_detailes>
+<my:uses_dev>
+<rdf:Description rdf:about = 'http://127.0.0.1/Device_A0722CEEC888/'>
+</rdf:Description>
+</my:uses_dev>
+</rdf:Description>
+
+<rdf:Description rdf:about = 'http://127.0.0.1/Event_47/'>
+<my:request_timestamp rdf:datatype = 'http://www.w3.org/2001/XMLSchema#datetime'>11.11.2020T20:04:14.775</my:request_timestamp>
+<my:has_req_type>STATE_CHANGE</my:has_req_type>
+<my:has_state>4</my:has_state>
+<my:request_detailes>
+<rdf:Description>
+<rdf:type>:statement</rdf:type>
+<rdf:predicat>:new_state</rdf:predicat>
+<rdf:subject>Watch_TV</rdf:subject>
+<rdf:object><rdf:Description rdf:about = 'http://127.0.0.1/qam::MediaSourceImpl:1625195/'>
+</rdf:Description>
+</rdf:object>
+</rdf:Description>
+</my:request_detailes>
+<my:uses_dev>
+<rdf:Description rdf:about = 'http://127.0.0.1/Device_A0722CEEC888/'>
+</rdf:Description>
+</my:uses_dev>
+</rdf:Description>
+
+<rdf:Description rdf:about = 'http://127.0.0.1/Event_48/'>
+<my:request_timestamp rdf:datatype = 'http://www.w3.org/2001/XMLSchema#datetime'>11.11.2020T20:04:14.775</my:request_timestamp>
+<my:has_req_type>STATE_CHANGE</my:has_req_type>
+<my:has_state>4</my:has_state>
+<my:request_detailes>
+<rdf:Description>
+<rdf:type>:statement</rdf:type>
+<rdf:predicat>:new_state</rdf:predicat>
+<rdf:subject>Watch_TV</rdf:subject>
+<rdf:object><rdf:Description rdf:about = 'http://127.0.0.1/qam::MediaSourceImpl:1625197/'>
+</rdf:Description>
+</rdf:object>
+</rdf:Description>
+</my:request_detailes>
+<my:uses_dev>
+<rdf:Description rdf:about = 'http://127.0.0.1/Device_A0722CEEC888/'>
+</rdf:Description>
+</my:uses_dev>
+</rdf:Description>
+
+</rdf:RDF>
