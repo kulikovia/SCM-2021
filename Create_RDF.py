@@ -49,14 +49,14 @@ def createXML():
 # Add State nodes
     i = 0
     tunes = []
-    with open('output.csv') as f_obj:
+    with open('test.csv') as f_obj:
         reader = csv.DictReader(f_obj, delimiter=',')
         for line in reader:
             tunes.append(tune())
-            tunes[i].event_timestamp = line["TIMESTAMP"]
-            tunes[i].device_id = line["DEVICE_ID"]
-            tunes[i].channel_id = line["CHANNEL_ID"]
-            tunes[i].state_id = line["DEVICE_STATE"]
+            tunes[i].event_timestamp = line[" timestamp"]
+            tunes[i].device_id = line[" Device_ID"]
+            tunes[i].channel_id = line[" Channel_ID"]
+            tunes[i].state_id = line[" Device_State"]
             body = str("\n<rdf:Description rdf:about = 'http://127.0.0.1/Event_") + str(i) + "/'>\n<my:request_timestamp rdf:datatype = 'http://www.w3.org/2001/XMLSchema#datetime'>" + str(tunes[i].event_timestamp) + "</my:request_timestamp>\n<my:has_req_type>STATE_CHANGE</my:has_req_type>\n<my:has_state>" + str(tunes[i].state_id) + "</my:has_state>\n<my:request_detailes>\n<rdf:Description>\n<rdf:type>:statement</rdf:type>\n<rdf:predicat>:new_state</rdf:predicat>\n<rdf:subject>Watch_TV</rdf:subject>\n<rdf:object><rdf:Description rdf:about = 'http://127.0.0.1/" + str(tunes[i].channel_id)+ "/'>\n</rdf:Description>\n</rdf:object>\n</rdf:Description>\n</my:request_detailes>\n<my:uses_dev>\n<rdf:Description rdf:about = 'http://127.0.0.1/Device_" + str(tunes[i].device_id) + "/'>\n</rdf:Description>\n</my:uses_dev>\n</rdf:Description>\n"
             f.write(body)
             i = i + 1
